@@ -38,6 +38,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
+  cellType1: {
+    flex: 1,
+    backgroundColor: 'powderblue',
+  },
+  cellType2: {
+    flex:2,
+    background: 'skyblue'
+  },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
