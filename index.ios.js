@@ -17,7 +17,7 @@ export default class AwesomeCountDown extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.cellTypeOne}>
-                <Text>Test</Text>
+                <Text style = {{top:50}}>Test</Text>
         </View>
 
         <View style={styles.cellTypeTwo} />
