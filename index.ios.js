@@ -16,25 +16,28 @@ export default class AwesomeCountDown extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style = {styles.cellType1}></View>
-        <View style = {styles.cellType2}></View>
+        <View style={styles.cellTypeOne}>
+                <Text>Test</Text>
+        </View>
+
+        <View style={styles.cellTypeTwo} />
       </View>
     );
   }
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#dc143c',
   },
-  cellType1: {
+  cellTypeOne: {
     flex: 1,
-    backgroundColor: 'powderblue',
+    backgroundColor: '#dc143c',
   },
-  cellType2: {
+  cellTypeTwo: {
     flex:2,
     backgroundColor: 'skyblue',
   },
