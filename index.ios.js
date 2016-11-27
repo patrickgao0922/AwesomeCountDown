@@ -16,16 +16,8 @@ export default class AwesomeCountDown extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <View style = {styles.cellType1}></View>
+        <View style = {styles.cellType2}></View>
       </View>
     );
   }
@@ -44,7 +36,7 @@ const styles = StyleSheet.create({
   },
   cellType2: {
     flex:2,
-    background: 'skyblue'
+    backgroundColor: 'skyblue',
   },
   welcome: {
     fontSize: 20,
